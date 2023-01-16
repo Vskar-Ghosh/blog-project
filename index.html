@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog website</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- fonts cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font familly link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header starts here -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+
+      <i class="fas fa-bars fa-4x" id="bar-icon"></i>
+
+      <nav aria-label="Main Menu" id="menu" class="hidden">
+        <ul role="menubar" aria-label="Main Menu">
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Archives</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Blog Posts</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header ends here -->
+
+    <!-- main start here -->
+    <main>
+      <!-- banner section start here -->
+      <section id="blog-banner-section">
+        <article>
+          <h1 class="banner-heading">Web Developement</h1>
+          <p class="banner-description text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            enim, deleniti minima nostrum ex sit doloremque accusamus ut
+            adipisci error ad. Sit, eum quaerat iure fugiat praesentium ab
+            placeat voluptatum porro amet in natus, quis totam voluptate
+            obcaecati veniam animi sint similique vel fuga voluptatibus labore
+            reprehenderit voluptatem rerum cupiditate?
+          </p>
+        </article>
+
+        <aside>
+          <img
+            src="images/cover-photo.jpg"
+            alt="cover photo"
+            class="banner-img"
+          />
+        </aside>
+      </section>
+      <!-- banner section ned here -->
+
+      <!-- about-me section starts here -->
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3 class="card-header">Eduction</h3>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, iusto voluptates. Alias fugit doloribus, quae vitae
+                magni sequi sint repellat!
+              </p>
+            </div>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Eduction</h3>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, iusto voluptates. Alias fugit doloribus, quae vitae
+                magni sequi sint repellat!
+              </p>
+            </div>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Eduction</h3>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, iusto voluptates. Alias fugit doloribus, quae vitae
+                magni sequi sint repellat!
+              </p>
+            </div>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+        </div>
+      </section>
+      <!-- about-me section ends here -->
+
+      <!-- archives section starts here -->
+      <section id="archive" class="section-center">
+        <h2 class="section-heading">Archive</h2>
+
+        <div class="archives-container">
+          <ul class="archives-container-lists">
+            <li class="archives-container-list">
+              <img src="./images/img-1.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-2.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-3.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-1.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-2.jpg" alt="image1" class="archives-img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- archives section ends here -->
+
+      <!-- blog-post start here -->
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading blog-post-heading">Blog Posts</h2>
+        <div class="blog-psot">
+          <aside class="blog-post-aside">
+            <img src="images/img-1.jpg" alt="image1" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              natus beatae minus a quas sit. Possimus, perspiciatis quidem.
+              Magni iure dolores dignissimos corrupti, hic consequatur.
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-psot">
+          <aside class="blog-post-aside">
+            <img src="images/img-1.jpg" alt="image1" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              natus beatae minus a quas sit. Possimus, perspiciatis quidem.
+              Magni iure dolores dignissimos corrupti, hic consequatur.
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-psot">
+          <aside class="blog-post-aside">
+            <img src="images/img-1.jpg" alt="image1" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              natus beatae minus a quas sit. Possimus, perspiciatis quidem.
+              Magni iure dolores dignissimos corrupti, hic consequatur.
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+      </section>
+      <!-- blog-post end here -->
+
+      <!-- contact section starts here -->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading text-white">Contact Me</h2>
+
+        <form action="" id="contact-form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" required autocomplete="name" />
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" required autocomplete="email" />
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+
+          <div class="form-control form-btn-field">
+            <button type="submit" class="btn contact-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact section ends here -->
+    </main>
+    <!-- main end here -->
+
+    <!-- footer section starts here -->
+    <footer>
+      <p class="copyright-text">&copy;All Rights Reserved by Vaskar Ghosh</p>
+
+      <nav aria-label="Footer Menu">
+        <ul role="menubar2" id="menuber2" aria-label="Footer Menu">
+          <li role="none">
+            <a href="#" target="_blank" class="nav-link" role="menuitem">
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#" target="_blank" class="nav-link" role="menuitem">
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#" target="_blank" class="nav-link" role="menuitem">
+              <i class="fab fa-github footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a href="#" target="_blank" class="nav-link" role="menuitem">
+              <i class="fab fa-linkedin footer-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- footer section ends here -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
